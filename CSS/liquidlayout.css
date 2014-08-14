@@ -1,0 +1,37 @@
+* {font-family: Verdana, Arial, sans-serif;
+   color:chocolate;}
+
+body {
+    width:95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    background-color: #B25050;
+    padding: .5em;
+    margin:1em;
+}
+
+li {
+    display: inline;
+    text-decoration: underline;
+    margin:0.5em;
+}
+
+#col1, #col2, #col3 {
+    float:left;
+    width:28%;
+    margin-right:4%;
+}
+
+#col3 {
+    margin-right:0px;
+}
+
+#float {
+    width:95%;
+    overflow: auto;
+    background-color: #fff;
+}
